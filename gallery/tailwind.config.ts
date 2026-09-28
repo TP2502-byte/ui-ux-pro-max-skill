@@ -7,7 +7,12 @@ const config: Config = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "hsl(var(--background) / <alpha-value>)",
+        foreground: "hsl(var(--foreground) / <alpha-value>)",
+      },
+    },
   },
   plugins: [],
 };
